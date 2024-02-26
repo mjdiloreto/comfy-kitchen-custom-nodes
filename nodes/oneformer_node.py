@@ -5,7 +5,7 @@ import time
 import cv2
 
 class OneFormerSegmentation:
-    def __init__(self, load_immediately=True, device="cpu", high_quality=True):
+    def __init__(self, load_immediately=True, device="cuda", high_quality=True):
         # Initialize the segmentation
         # Args:
         #   load_immediately (bool) - Should the model load when this object is constructed
